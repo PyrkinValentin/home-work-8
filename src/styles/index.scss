@@ -1,0 +1,22 @@
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+
+.grid {
+  margin-top: 24px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.item {
+  padding: 16px;
+  background-color: greenyellow;
+  text-align: center;
+
+  text-decoration: none;
+  color: #222;
+}
